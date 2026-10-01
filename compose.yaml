@@ -33,6 +33,7 @@ services:
       DB_NAME: crud_usuarios
       DB_USERNAME: users_app
       DB_PASSWORD: local_users_password
+      DB_SSL_MODE: DISABLED
       SMTP_HOST: smtp.gmail.com
       SMTP_PORT: "587"
       SMTP_USERNAME: ${SMTP_USERNAME:-}
